@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前标签："/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv1"
+                android:visibility="gone"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv2"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv3"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv4"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv5"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv6"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加兴趣标签"/>
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+<Button
+    android:id="@+id/add_tn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="确定"/>
+    </LinearLayout>
+
+</LinearLayout>

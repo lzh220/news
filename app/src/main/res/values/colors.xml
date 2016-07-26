@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--画线颜色-->
+    <color name="colorDraw">#dfd9d9</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorBlue">#011e3b</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorToolbar">#7db9f7</color>
+    <color name="write">#ffffff</color>
+    <color name="grey">#7c7a7a</color>
+    <color name="one">#7db9f7</color>
+    <color name="two">#00ff15</color>
+    <color name="three">#0734fc</color>
+    <color name="four">#e2ff03</color>
+    <color name="five">#fd0be5</color>
+    <color name="six">#ffbb00</color>
+    <color name="seven">#f5060e</color>
+    <color name="eight">#a256ef</color>
+    <color name="colorlinearlayoout">#e3e7e4</color>
+    <color name="colorbutton2">#d4d9d4</color>
+</resources>

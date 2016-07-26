@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:id="@+id/news_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:contentPadding="5dp"
+        android:foreground="?android:attr/selectableItemBackground">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"><ImageView
+    android:layout_alignParentLeft="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/img"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="80dp"
+    android:layout_height="80dp" />
+
+    <TextView
+        android:id="@+id/titletv"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/img"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/authortv"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/titletv"
+        android:layout_below="@id/titletv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/datetv"
+        android:textSize="8dp"
+        android:layout_alignBottom="@id/img"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" /></RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_linearlayout"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </LinearLayout>
+    <TextView
+        android:background="@color/colorDraw"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+        <RelativeLayout
+
+            android:id="@+id/main_relativelayout_one"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/new_unselected"
+                android:id="@+id/main_bottomtitle_info_img"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/mian_bottomtitle_info_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/main_bottomtitle_info_img"
+                android:text="资讯"
+                android:textSize="8dp"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_relativelayout_two"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/collect_unselected"
+                android:id="@+id/main_bottomtitle_hot_img"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/mian_bottomtitle_hot_tv"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/main_bottomtitle_hot_img"
+                android:text="热点"
+                android:textSize="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_relativelayout_three"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/find_defult"
+                android:id="@+id/main_bottomtitle_select_img"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/mian_bottomtitle_select_tv"
+                android:layout_marginTop="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/main_bottomtitle_select_img"
+                android:text="搜索"
+                android:textSize="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </LinearLayout>>
+
+</LinearLayout>
